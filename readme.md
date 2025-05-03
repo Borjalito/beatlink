@@ -1,6 +1,6 @@
 # Beatlink
 
-Questa repository contiene il progetto (eclipse) relativo al prototipo di Beatlink, una piattaforma per la condivisione creativa di file musicali e collaborazione fra musicisti.  
+Questa repository contiene il progetto (eclipse) relativo al prototipo di Beatlink, una piattaforma per la collaborazione creativa fra musicisti.  
 Il progetto è realizzato come sito web e utilizza Servlet, JSP, HTML, CSS, JavaScript.  
 L'idea è nata nell'ambito del corso di Ingegneria del Software, in cui era richiesto lo sviluppo di un applicativo attraverso le diverse fasi di sviluppo di un software: raccolta dei requisiti, analisi, progettazione e implementazione con la presentazione di un prototipo.  
 
