@@ -1,0 +1,116 @@
+.muteButton {
+    background-color: #EBB42C; /* Colore di sfondo */
+    border: none; /* Rimuove il bordo */
+    color: #012B28; /* Colore del testo */
+    padding: 10px 10px; /* Spaziatura interna */
+    text-align: center; /* Allineamento del testo */
+    text-decoration: none; /* Rimuove la sottolineatura */
+    display: inline-block; /* Visualizzazione in linea */
+    font-size: 0.8em; /* Dimensione del font */
+    margin: 4px 2px; /* Margine */
+    cursor: pointer; /* Cambia il cursore in una mano quando si passa sopra */
+    border-radius: 12px; /* Angoli arrotondati */
+    transition: background-color 0.3s ease; /* Transizione per il cambio di colore di sfondo */
+}
+        
+        
+.soloButton {
+    background-color: #A01C1C; /* Colore di sfondo */
+    border: none; /* Rimuove il bordo */
+    color: white; /* Colore del testo */
+    padding: 10px 10px; /* Spaziatura interna */
+    text-align: center; /* Allineamento del testo */
+    text-decoration: none; /* Rimuove la sottolineatura */
+    display: inline-block; /* Visualizzazione in linea */
+    font-size: 0.8em; /* Dimensione del font */
+    margin: 4px 2px; /* Margine */
+    cursor: pointer; /* Cambia il cursore in una mano quando si passa sopra */
+    border-radius: 12px; /* Angoli arrotondati */
+    transition: background-color 0.3s ease; /* Transizione per il cambio di colore di sfondo */
+}
+
+
+#progressBar {
+  position: fixed;
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  /*width: 15rem;*/
+}
+
+.volumeBar {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 15rem;
+
+}
+ 
+/***** Chrome, Safari, Opera, and Edge Chromium *****/
+#progressBar::-webkit-slider-runnable-track {
+  background: rgba(152, 72, 172, 0.5);
+  height: 0.1rem;
+}
+/******** Firefox ********/
+#progressBar::-moz-range-track {
+  background: rgba(152, 72, 172, 0.5);
+  height: 0.1rem;
+}
+/***** Chrome, Safari, Opera, and Edge Chromium *****/
+.volumeBar::-webkit-slider-runnable-track {
+
+  background: #012B28;
+  height: 1rem;
+}
+/******** Firefox ********/
+.volumeBar::-moz-range-track {
+  background: #012B28;
+  height: 1rem;
+}
+
+
+/***** Chrome, Safari, Opera, and Edge Chromium *****/
+#progressBar::-webkit-slider-thumb {
+   -webkit-appearance: none; /* Override default look */
+   appearance: none;
+   margin-top: -12px; /* Centers thumb on the track */
+   background-color: #012B28;
+   height: 2.2rem;
+   width: 0.15rem;    
+}
+/***** Firefox *****/
+#progressBar::-moz-range-thumb {
+    border: none; /*Removes extra border that FF applies*/
+    border-radius: 0; /*Removes default border-radius that FF applies*/
+    background-color: #012B28;
+    height: 2.2rem;
+    width: 0.15rem;
+}
+/***** Chrome, Safari, Opera, and Edge Chromium *****/
+.volumeBar::-webkit-slider-thumb {
+   -webkit-appearance: none; /* Override default look */
+   appearance: none;
+   margin-top: -12px; /* Centers thumb on the track */
+   background-color: #EBB42C;
+   height: 1rem;
+   width: 0.5rem;    
+}
+/***** Firefox *****/
+.volumeBar::-moz-range-thumb {
+    border: none; /*Removes extra border that FF applies*/
+    border-radius: 0; /*Removes default border-radius that FF applies*/
+    background-color: #EBB42C;
+    height: 1rem;
+    width: 0.5rem;
+}
+
+
+
+
+
+body, html{
+    all: unset;
+}
