@@ -11,5 +11,6 @@ In linea generale, erano previste le fasi di:
 - Analisi del problema  
 - Progettazione  
 - Implementazione  
-- Collaudo e deployment (prototipo)  
+- Collaudo e deployment (prototipo)
+  
 È possibile scaricare il [documento](Progetto_Beatlink.pdf) realizzato per questo progetto.
