@@ -7,9 +7,9 @@ La realizzazione del prototipo era funzionale alla sola presentazione di alcune 
 ## Considerazioni 
 Per la realizzazione del software era necessario seguire un modello e delle linee guida, realizzando i diagrammi richiesti con UML (diagramma delle classi per il modello del dominio, casi d'uso, diagrammi di sequenza, ecc.).  
 In linea generale, erano previste le fasi di:  
--Analisi dei requisiti  
--Analisi del problema  
--Progettazione  
--Implementazione  
--Collaudo e deployment (prototipo)  
+- Analisi dei requisiti
+- Analisi del problema  
+- Progettazione  
+- Implementazione  
+- Collaudo e deployment (prototipo)  
 È possibile scaricare il [documento](Progetto_Beatlink.pdf) realizzato per questo progetto.
